@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гра: Вгадай колір</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Гра: Вгадай колір</h1>
+    </header>
+
+    <section class="game-area">
+        <p>Подивіться на колір квадрата і виберіть правильний варіант.</p>
+        <div id="colorSquare" class="color-square"></div>
+        <div id="options" class="color-options">
+            <!-- Варіанти відповідей будуть додані динамічно через JavaScript -->
+        </div>
+        <div id="message" class="message"></div>
+        <button id="retryButton" class="game-button" onclick="startNewColorGame()" style="display:none;">Спробувати знову</button>
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="practice1.html">Назад до вибору гри</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>Телефон: +380 123 456 789</p>
+        <p>Email: myemail@example.com</p>
+        <p>© 2024, Ваше ім'я</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
